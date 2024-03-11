@@ -20,7 +20,7 @@ int a026804(int n) {
 void main() {
     const N = 47;
     
-    iota(N+1).tail(N).map!a026804.writeln;
+    iota(1, N+1).map!a026804.writeln;
 }
 
 unittest {
