@@ -1,5 +1,5 @@
 import std.stdio: writeln;
-import std.range: iota, tail;
+import std.range: iota;
 import std.algorithm: map;
 
 // OEIS-A026804
